@@ -1,0 +1,104 @@
+
+Microsoft:
+- noreply@microsoft.com
+- account-security-noreply@account.microsoft.com
+- no-reply@microsoftsupport.com
+- security@microsoft.com
+- support@microsoft.com
+- msdn@microsoft.com
+- info@microsoft.com
+- noreply@onedrive.com
+- noreply@sharepointonline.com
+- noreply@office.com
+- no-reply@onedrive.com
+- sharepoint@service.microsoft.com
+- no-reply@sharepointonline.com
+
+Google:
+- no-reply@accounts.google.com
+- no-reply@google.com
+- security@google.com
+- support@google.com
+- adsense-noreply@google.com
+- calendar-notification@google.com
+
+Apple:
+- noreply@apple.com
+- appleid@id.apple.com
+- support@apple.com
+- no-reply@appleid.apple.com
+- itunesstore@email.apple.com
+- news@email.apple.com
+
+Amazon:
+- no-reply@amazon.com
+- auto-confirm@amazon.com
+- order-update@amazon.com
+- support@amazon.com
+- store-news@amazon.com
+- device-support@amazon.com
+
+PayPal:
+- service@paypal.com
+- no-reply@paypal.com
+- support@paypal.com
+- security@paypal.com
+- notify@paypal.com
+
+LinkedIn:
+- messages-noreply@linkedin.com
+- noreply@linkedin.com
+- support@linkedin.com
+- invitations@linkedin.com
+- updates@linkedin.com
+
+Facebook:
+- notification@facebookmail.com
+- noreply@facebookmail.com
+- security@facebook.com
+- support@facebook.com
+- updates@facebookmail.com
+
+Twitter:
+- no-reply@twitter.com
+- support@twitter.com
+- security@twitter.com
+- notifications@twitter.com
+- info@twitter.com
+
+Netflix:
+- info@mailer.netflix.com
+- no-reply@netflix.com
+- support@netflix.com
+- security@netflix.com
+
+Dropbox:
+- no-reply@dropbox.com
+- support@dropbox.com
+- security@dropbox.com
+
+eBay:
+- eBay@ebay.com
+- cshelp@ebay.com
+- noreply@ebay.com
+- support@ebay.com
+
+Instagram:
+- no-reply@mail.instagram.com
+- support@mail.instagram.com
+- security@mail.instagram.com
+
+Adobe:
+- message@adobe.com
+- noreply@adobe.com
+- support@adobe.com
+- security@adobe.com
+
+Banken (allgemein, spezifische Banken können variieren):
+- noreply@bankofamerica.com
+- no-reply@chase.com
+- alerts@wellsfargo.com
+- security@citibank.com
+- notifications@barclays.com
+- service@hsbc.com
+- info@scotiabank.com
